@@ -1,0 +1,53 @@
+.sepetCardContainer{
+    width: 100%;
+    padding: 5%;
+    background-color: var(--nvbr-clr);
+    border-radius: 25px;
+    box-shadow: 0 0 5px black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sepetCardContainer figure{
+    width: 100px;
+}
+
+.sepetCardContainer figure img{
+    width: 100%;
+    filter: drop-shadow(0 0 5px black);
+}
+
+.sepetCartDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.sepetCartDetail .adet{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sepetCardContainer .adet button,
+.sepetCardBtn button{
+    border: none;
+    padding: 10px;
+    background-color: var(--btn-clr);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sepetCardContainer .adet button:hover{
+    box-shadow: 0 0 5px var(--btn-clr);
+    background-color: white;
+    color: var(--btn-clr);
+}

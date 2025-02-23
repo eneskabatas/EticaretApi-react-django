@@ -1,0 +1,17 @@
+:root{
+    --padding: 2rem 11rem;
+    --text-clr : #5C4B51;
+    --hover-clr : #8CBEB2;
+    --nvbr-clr : #F2EBBF;
+    --section-clr : #F3B562;
+    --btn-clr : #F06060;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}

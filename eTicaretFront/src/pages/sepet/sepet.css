@@ -1,0 +1,25 @@
+.sepetTotalContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 2rem;
+}
+
+.sepetTotalContainer button{
+    padding: 1rem;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--btn-clr);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sepetTotalContainer button:hover{
+    background-color: white;
+    color: var(--btn-clr);
+    box-shadow: 0 0 5px black;
+}

@@ -1,0 +1,4 @@
+.sectionContainer{
+    padding: var(--padding);
+    background-color: var(--section-clr);
+}

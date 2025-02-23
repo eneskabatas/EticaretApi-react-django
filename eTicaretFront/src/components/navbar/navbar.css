@@ -1,0 +1,68 @@
+.navbarContainer{
+    width: 100%;
+    display: flex;
+    padding: var(--padding);
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nvbr-clr);
+    flex:1;
+}
+
+.searchContainer{
+    flex:3 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchContainer input{
+    width: 50%;
+    border: none;
+    padding: 1% 4%;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 25px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.searchContainer button{
+    width: 4%;
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.navbarBtnContainer{
+    flex: 1;
+    display: flex;
+    gap: 15px;
+}
+
+.navbarBtnContainer a{
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--btn-clr);
+    color: var(--txt-clr);
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.3s;
+}
+
+.navbarBtnContainer a span svg{
+    font-size: 18px;
+}
+
+.navbarBtnContainer a:hover{
+    background-color: var(--hover-clr);
+    /* color: var(--nvbr-clr); */
+}

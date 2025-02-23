@@ -1,0 +1,34 @@
+.loginContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContainer form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.loginContainer form input{
+    padding: 1rem;
+    border:none;
+    border-radius: 25px;
+    outline: none;
+    width: 100%;
+}
+
+.loginContainer form button{
+    padding: 1rem;
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    background-color: var(--btn-clr);
+    color: white;
+    cursor: pointer;
+}

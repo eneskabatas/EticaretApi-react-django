@@ -1,0 +1,23 @@
+.urunCardContainer{
+    width: 200px;
+    height: 300px;
+    background-color: var(--nvbr-clr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.urunCardContainer figure{
+    width: 50px;
+}
+
+.urunCardContainer figure img{
+    width: 100%;
+}
+
+.urunBtnContainer{
+    display: flex;
+    gap: 15px;
+}
